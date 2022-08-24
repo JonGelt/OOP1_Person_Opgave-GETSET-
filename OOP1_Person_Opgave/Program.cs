@@ -9,7 +9,7 @@ class Program
 
         do
         {
-            Console.WriteLine("Enter your name:");
+            Console.Write("Enter your name:");
             person.Name = Console.ReadLine();
             Console.WriteLine(person.Name);
 
@@ -17,7 +17,7 @@ class Program
 
         do
         {
-            Console.WriteLine("Enter your date of birth: ");
+            Console.Write("Enter your date of birth: ");
             person.DoB = Console.ReadLine();            
             Console.WriteLine(person.DoB);
             Console.WriteLine($"Din alder er {person.Age}");
@@ -26,7 +26,7 @@ class Program
 
         do
         {
-            Console.WriteLine("Enter your email:");
+            Console.Write("Enter your email:");
             person.Email = Console.ReadLine();
             Console.WriteLine(person.Email);
 
@@ -34,7 +34,7 @@ class Program
 
         do
         {
-            Console.WriteLine("Enter your password:");
+            Console.Write("Enter your password:");
             person.Password = Console.ReadLine();
             Console.WriteLine(person.Password);
 
